@@ -1,0 +1,143 @@
+<!-- Instructions
+For an entire generation, a website called MySpace was the entry to the world of social networks. Tom was everyone's friend.
+
+One of the iconic features of the MySpace era was the “Top 8", which allowed users to select eight friends to display on their profile page. It changed the social dynamics in schools everywhere:
+
+“OMG! Did you remove so-and-so from top 8?"
+“You've put me in your top friends! BFF <3."
+“What's-her-name and what's-his-face are not friends?!"
+Let’s create your own MySpace Top 8 with HTML!
+
+Make a new file called top_8.html.
+
+We'll provide you with a <style> element with the styles already inside. Go ahead and copy/paste this into the <head> of your file:
+  <style>
+  body {
+    width: 85%;
+    margin: auto;
+  }
+
+  h1 {
+    text-align: left;
+  }
+
+  img {
+    border: 3px solid blue;
+  }
+
+  #top-8-wrapper {
+    text-align: center;
+  }
+
+  .friend-card {
+    display: inline-block;
+    margin: 1px;
+    text-align: center;
+  }
+
+  .friend-name {
+    color: blue;
+  }
+</style>
+
+Next, let’s add the HTML.
+
+Add a <div> element with an id of "top-8-wrapper".
+Inside, add a <h1> heading element that says "My Top Friends!", followed by two <div> elements with a class of "top-8-row".
+Inside each <div> with a "top-8-row" class, add four more <div> elements that each have a class of "friend-card".
+Inside each <div> with a "friend-card" class, add the following:
+A <h2> header element with a "friend-name" class and the friend's name inside the tags.
+An <img> image element with a src and alt attribute.
+So who’s in your top 8?
+
+If you don't want to use real names, feel free to add funny usernames or create superlatives ("class clown", "life of the party", "most likely to become president", "best hair", "most likely to be internet famous", etc).
+
+When you are done, screenshot the web page and share it online (and don't forget to tag your top 8)!
+  -->
+
+<!-- 14. MySpace Top 8 -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+  body {
+    width: 85%;
+    margin: auto;
+  }
+
+  h1 {
+    text-align: left;
+  }
+
+  img {
+    border: 3px solid blue;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  #top-8-wrapper {
+    text-align: center;
+  }
+
+  .top-8-row {
+    max-width: 330px;
+    margin: 0 auto;
+  }
+
+  .friend-card {
+    display: inline-block;
+    margin: 1px;
+    text-align: center;
+    width: 160px;
+    vertical-align: top;
+  }
+
+  .friend-name {
+    color: blue;
+  }</style>
+    <title>top_8.html</title>
+    </head>
+  <body>
+    <div id="top-8-wrapper">
+      <h1>Itachi Uchiha Top Friends</h1>
+        <div class="top-8-row">
+          <div class="friend-card">
+            <h2 class="friend-name">Nagato (Pain)</h2>
+            <img src="https://pt.quizur.com/_image?href=https%3A%2F%2Fimg.quizur.com%2Ff%2Fimg60b6b792beca99.58445164.jpg%3FlastEdited%3D1622587376&w=600&h=600&f=webp" alt="Nagato (Pain): The recognized leader of the Akatsuki and a wielder of the Rinnegan. He co-founded the original, peaceful group alongside Yahiko and Konan.">
+            </div>
+          <div class="friend-card">
+            <h2 class="friend-name">Obito Uchiha (Tobi)</h2>
+            <img src="https://preview.redd.it/why-do-a-lot-of-people-hate-obito-v0-hrcbo17bz11c1.jpg?auto=webp&s=c645e64f4c1900081d66cfaacd09093ea74599f9" alt="Obito Uchiha (Tobi): The master manipulator and true founder of the 'rogue' Akatsuki. He operated from the shadows to execute the Moon's Eye Plan.">
+            </div>
+          <div class="friend-card">
+            <h2 class="friend-name">Konan</h2>
+            <img src="https://preview.redd.it/i-dont-get-the-people-who-say-konan-is-a-well-written-v0-jurzlczjvgpe1.jpeg?width=640&crop=smart&auto=webp&s=d12bc9cd1382e94eef2c33d2cff3f8e203b3cb23" alt="Konan: The only female member of the group, highly skilled in paper-based ninjutsu. She is fiercely loyal to Nagato.">
+            </div>
+          <div class="friend-card">
+            <h2 class="friend-name">Kisame Hoshigaki</h2>
+            <img src="https://pt.quizur.com/_image?href=https://img.quizur.com/f/img5ef54de0439650.05319902.png?lastEdited=1593134567&w=1024&h=1024&f=webp" alt="Kisame Hoshigaki: The 'Monster of the Hidden Mist,' known for his massive chakra reserves and his sentient sword, Samehada.">
+            </div>            
+        </div>
+        <div class="top-8-row">
+          <div class="friend-card">
+            <h2 class="friend-name">Sasori</h2>
+            <img src="https://criticalhits.com.br/wp-content/uploads/2023/11/Sasori-1280x837.jpg" alt="Sasori: A genius puppet master from the Hidden Sand who converted his own body into a puppet. He was initially partnered with Orochimaru, and later Deidara.">
+            </div>
+          <div class="friend-card">
+            <h2 class="friend-name">Deidara</h2>
+            <img src="https://static.wikia.nocookie.net/naruto/images/3/30/Deidara_%28Parte_II%29.PNG/revision/latest?cb=20150112171710&path-prefix=pt-br" alt="Deidara: A rogue ninja from the Hidden Stone who viewed explosions as art. He served as Sasori’s, and later Tobi's, partner.">
+            </div>
+          <div class="friend-card">
+            <h2 class="friend-name">Kakuzu</h2>
+            <img src="https://preview.redd.it/fun-fact-kakuzu-was-91-years-old-back-in-shippuden-if-he-v0-8qs4sza03gnd1.png?width=640&crop=smart&auto=webp&s=44a11113de4c9e560dbb43a720faa2aa479879a9" alt="Kakuzu: A greedy, immortal-like ninja from the Hidden Waterfall who used multiple hearts to extend his life.">
+            </div>
+          <div class="friend-card">
+            <h2 class="friend-name">Hidan</h2>
+            <img src="https://static.wikia.nocookie.net/naruto/images/d/db/Hidan_%28Infobox_-_Anime%29.PNG/revision/latest?cb=20230826164757&path-prefix=pt-br" alt="Hidan: An immortal, sadistic follower of the Jashin religion who used blood-curses. He was Kakuzu's highly mismatched partner.">
+            </div>
+        </div>
+      </div>
+    </body>  
+  </html>
