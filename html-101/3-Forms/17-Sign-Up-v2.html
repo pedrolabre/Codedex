@@ -1,0 +1,32 @@
+<!-- Instructions
+Let's revisit the sign_up.html code from the last exercise and add some form validation:
+
+Give username a minlength of 3, maxlength of 20.
+Give password a minlength of 8, maxlength of 64.
+Make the username, email, and password required.-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <form>
+      <h2>Sign Up</h2>
+
+      Username:<br>
+      <input type="text" minlength="3" maxlength="20" required>
+      <br><br>
+
+      Email:<br>
+      <input type="email" required>
+      <br><br>
+
+      Password:<br>
+      <input type="password" minlength="8" maxlength="64" required>
+      <br><br>
+
+      <input type="submit">
+    </form>
+  </body>
+</html>
