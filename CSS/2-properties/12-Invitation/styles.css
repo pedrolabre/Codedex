@@ -1,0 +1,19 @@
+#invite-wrapper {
+  width: 75%;
+  padding: 25px;
+  background-color: #f24586;
+  color: #ffffff;
+}
+
+h1 {
+  font-family: "Brush Script MT", cursive;
+  text-align: center;
+}
+
+#invite-text {
+  width: 75%;
+}
+
+#itinerary {
+  text-align: center;
+}
