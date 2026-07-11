@@ -1,0 +1,13 @@
+#outer {
+  width: 500px;
+  height: 500px;
+  background-color: orange;
+}
+
+#inner {
+  width: 400px;
+  height: 400px;
+  background-image: url('https://media.istockphoto.com/id/93215970/pt/foto/raposa-vermelha-4-anos.jpg?s=612x612&w=0&k=20&c=pny9zW4DrMl7ndujIO1wFIt9tWxWQr8GxExN_3da2eI=');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
