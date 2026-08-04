@@ -24,10 +24,17 @@ Repositório dedicado aos cursos, exercícios, challenges e projetos desenvolvid
 </tr>
 <tr>
 <td><strong>CSS</strong></td>
-<td>—</td>
+<td>04 de Agosto de 2026</td>
 <td>Fundamentos de CSS; seletores, propriedades e valores; cores, tipografia e unidades de medida; backgrounds, bordas e propriedades shorthand; box model, espaçamentos, alinhamento e organização de elementos; exercícios e challenges práticos distribuídos entre os módulos Selectors, Properties e Box Model.</td>
-<td>🔵 Em andamento</td>
+<td>🟡 Parcialmente concluído</td>
 <td><a href="./CSS/">Curso</a><br>Certificado pendente</td>
+</tr>
+<tr>
+<td><strong>JavaScript</strong></td>
+<td>—</td>
+<td>Fundamentos de JavaScript; uso do console; variáveis, constantes, tipos de dados e operadores aritméticos; controle de fluxo com operadores lógicos e condicionais; loops while e for; arrays; funções; objetos e modelagem de dados; manipulação do DOM e eventos; integração entre HTML, CSS e JavaScript; 44 exercícios distribuídos em oito módulos, além de artigos bônus, challenge packs e projeto de checkpoint.</td>
+<td>🔵 Em andamento</td>
+<td><a href="./JavaScript/">Curso</a><br>Certificado pendente</td>
 </tr>
 </tbody>
 </table>
