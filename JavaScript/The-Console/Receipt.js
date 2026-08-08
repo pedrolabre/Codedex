@@ -1,0 +1,13 @@
+console.log("============================");
+console.log("     COFFEE SHOP RECEIPT");
+console.log("----------------------------");
+console.log("       Order Details");
+console.log("----------------------------");
+console.log("Item        Qty       Price");
+console.log("----------------------------");
+console.log("Coffee       1         4.50");
+console.log("Cheesecake   1         6.00");
+console.log("Water        1         2.00");
+console.log("----------------------------");
+console.log("Total                 12.50");
+console.log("============================");
